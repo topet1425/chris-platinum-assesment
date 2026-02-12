@@ -15,11 +15,11 @@ const ITEMS_PER_PAGE = 5;
 
 const initialData: Integration[] = Array.from({ length: 12 }, (_, i) => ({
   id: i + 1,
-  integration: `INT-${i + 1}`,
-  name: `Integration ${i + 1}`,
-  source: "API",
-  entityGroup: "Group A",
-  interval: "5 mins",
+  integration: `Amazon QuickSight-${i + 1}`,
+  name: `Energy ${i + 1}`,
+  source: "Utility",
+  entityGroup: "ABC Group",
+  interval: "Daily",
   connectorUrl: "https://api.example.com",
   instruction: "Sync daily",
 }));
